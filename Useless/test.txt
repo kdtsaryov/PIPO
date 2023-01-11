@@ -1,0 +1,5 @@
+2 ls
+3 a
+1 a
+5 useless
+4 pwd
