@@ -98,7 +98,7 @@ int main(int argc, char* argv[]) {
 		num[0] = atoi(argv[1]);
 	}
 	else {
-		num[0] = 4000;
+		num[0] = sysconf(_SC_NPROCESSORS_ONLN) + 1;
 	}
 
 	// Создаем область разделяемой памяти для массива чисел
